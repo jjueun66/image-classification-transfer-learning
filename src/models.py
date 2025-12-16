@@ -45,9 +45,7 @@ def get_resnet18_finetune(num_classes: int = 10, train_all: bool = False):
     """
     ResNet-18 기반 Fine-tuning 모델.
     - train_all = False: layer4 + fc만 학습, 나머지 freeze
-    - train_all = True : 전체 레이어 fine-tuning
 
-    실험 3, 4에서는 일단 train_all=False (부분 fine-tuning)로 사용하는 걸 추천.
     """
     weights = models.ResNet18_Weights.DEFAULT
     model = models.resnet18(weights=weights)
