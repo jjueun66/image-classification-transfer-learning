@@ -99,6 +99,8 @@ python -m experiments.exp4_ft_aug
 python -m experiments.exp5_ft_no_aug_imagenet_preprocess
 python -m experiments.exp6_ft_aug_imagenet_preprocess
 
-Note: Model checkpoints and raw training logs are not included in the repository
-due to size constraints. All results reported in this README are reproducible
-using the provided code.
+Note: Model checkpoints (`.pt`) and raw training logs (`.csv`) are not included
+in the repository due to size constraints.
+All results reported above are fully reproducible using the provided code
+and experimental settings.
+
