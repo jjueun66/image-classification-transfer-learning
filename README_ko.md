@@ -1,3 +1,4 @@
+[English](README.md) | [한국어](README_ko.md)
 # CIFAR-10을 이용한 전이학습 기반 이미지 분류
 
 본 프로젝트는 CIFAR-10 데이터셋을 사용하여
