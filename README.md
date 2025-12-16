@@ -1,3 +1,4 @@
+[English](README.md) | [한국어](README_ko.md)
 # Image Classification with Transfer Learning on CIFAR-10
 
 This project investigates the effects of data augmentation and transfer learning
